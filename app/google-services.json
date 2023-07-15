@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "189969716450",
+    "project_id": "android-firebase-dcccc",
+    "storage_bucket": "android-firebase-dcccc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189969716450:android:40100558a19228f9d23abb",
+        "android_client_info": {
+          "package_name": "com.example.calculator_project2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189969716450-u508hr1dodt2olu4ti34l44v9o4phc38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnebA3TKkF3SlBoqGxWClsriIHYq8tjg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189969716450-u508hr1dodt2olu4ti34l44v9o4phc38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189969716450:android:f52cdeb2bc2e533cd23abb",
+        "android_client_info": {
+          "package_name": "com.example.musiclist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189969716450-u508hr1dodt2olu4ti34l44v9o4phc38.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnebA3TKkF3SlBoqGxWClsriIHYq8tjg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189969716450-u508hr1dodt2olu4ti34l44v9o4phc38.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

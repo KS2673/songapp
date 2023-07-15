@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/albumArtImageView"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:scaleType="fitCenter"
+        android:layout_centerHorizontal="true"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/albumArtImageView"
+        android:layout_marginTop="16dp"
+        android:max="100"
+        android:progress="0"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seekBar"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/previousButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Previous"
+            android:background="@color/black"
+            app:srcCompat="@android:drawable/ic_media_previous"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:background="@color/black"
+            app:srcCompat="@android:drawable/ic_media_play"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/pauseButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pause"
+            android:background="@color/black"
+            app:srcCompat="@android:drawable/ic_media_pause"
+            android:visibility="gone"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/nextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Next"
+            android:background="@color/black"
+            app:srcCompat="@android:drawable/ic_media_next"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
